@@ -20,9 +20,18 @@ measurements in feet. 1' could be entered as '1.'.
 
 In addition, leading zeros are optional. 000001 (1 sixteenth) is the same as 1. Trailing zeros are NOT optional. 000010 (10 sixteenths) is not the same as 1.
 
-|Key         |    Button   |
-|:----------:|:-----------:|
-|   '+'      |     +       |
+### Bindings
+
+|Calculator Button|      Keyboard Binding  | Function        |
+|:---------------:|:----------------------:|:---------------:|
+|   C             |          'c'           |      Clear      |
+|   back          |          'Backspace'   |      Backspace  |
+|   area          |          'a'           |      Area       |
+|   /             |          '/'           |      Divide     |
+|   X             |          '*'           |      Multiply   |
+|   -             |          '-'           |      Subtract   |
+|   +             |          '+'           |      Add        |
+|   =             |          'Enter'       |      Evaluate   |
 
 ## Limitations
 This is not a traditional calculator. It posesses pecularities that users may find unexpected. Numbers entered after a division or multiplication operator are NOT evaluated as a measurement. 
